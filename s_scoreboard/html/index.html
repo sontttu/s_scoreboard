@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8" />
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+</head>
+<body>
+    <div id="scoreboard" class="hidden">
+        <div id="header">
+            <div id="logo-container">
+                <img src="images/logo.png" alt="ogo" id="logo" />
+            </div>
+            <div id="title-container">
+                <div id="title">Server Name</div>
+                <div id="players-count-container">
+                    <i class="fas fa-user" id="player-icon"></i>
+                    <span id="players-count">0</span>
+                    <span id="players-text">Paikalla</span>
+                </div>
+            </div>
+        </div>
+        <hr class="separator" />
+        <div id="jobs-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
